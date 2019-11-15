@@ -12,7 +12,7 @@ setup(
     long_description=long_description,
     long_description_content_type="text/markdown",
     url="https://github.com/Alexterry101/MarsCoordFinder",
-    packages=['coordinte_finder'],
+    packages=['coordinate_finder'],
     install_requires=[            # I get to this in a second
           'scikit_learn',
           'pandas',
