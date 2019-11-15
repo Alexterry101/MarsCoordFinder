@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setup(
     name="coordinate_finder",
-    version="1.0",
+    version="1.0.1",
     author="Alex Terry & Alistair Heath",
     author_email="alexterry48@gmail.com.com",
     description="Package to find equidistant Lat & Long coordinates",
