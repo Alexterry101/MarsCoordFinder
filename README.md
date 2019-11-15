@@ -32,6 +32,9 @@ coords = Marscoordfinder()
 # Code to generate equidistant points within a boxed region
 # land_points are points within the region on land
 # equidistant_points are the number of coordinates (in this case 40) equidistant across the land in this region
+# n & s are the North and South Latitudes you wish to use as the boundaries
+# e & w are the East and West longitudes you wish to use as Boundaries
+# fidelity is the granularity of the defined grid, a smaller fidelity will give a finer granularity
 land_points, equidistant_points = coords.getNPointsInRegion(40, n=30, s=26, e=86.9, w=83.3, fidelity = 0.08)
 
 # Code to generate equidistant points within a custom defined boundary
