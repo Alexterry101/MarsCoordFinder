@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setup(
     name="coordinate_finder",
-    version="1.0.1",
+    version="1.0",
     author="Alex Terry & Alistair Heath",
     author_email="alexterry48@gmail.com.com",
     description="Package to find equidistant Lat & Long coordinates",
@@ -13,7 +13,7 @@ setup(
     long_description_content_type="text/markdown",
     url="https://github.com/Alexterry101/MarsCoordFinder",
     packages=['coordinate_finder'],
-    install_requires=[            # I get to this in a second
+    install_requires=[
           'scikit_learn',
           'pandas',
           'matplotlib',
