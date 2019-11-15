@@ -20,7 +20,7 @@ the coordinates to those that are on land and ensures the equidistant locations 
 ## Installation
 Use the package manager pip to install coordinate_finder
 ```python
-pip install coordinate_finder
+pip install coordinate-finder
 ```
 ## Usage
 To use this package you can reference the following commands as an example:
